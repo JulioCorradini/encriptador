@@ -1,0 +1,165 @@
+body {
+    
+    background: #e5e5e5;
+    width: 100%;
+    height: 100%;
+
+}
+
+header {
+
+    background: #e5e5e5;
+}
+
+.principal {
+
+    /*display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    background: #cccccc;*/
+    width: 100%;
+    height: 900px;
+    background: #cccccc;
+}
+
+.primerSeccion {
+
+    display: inline-block;
+    background: #cccccc;
+}    
+
+.segundaSeccion {
+
+    display: inline-block;
+    background: #cccccc;
+}
+
+.mensaje {
+
+    width: 680px;
+    height: 288px;
+    position: absolute;
+    top: 168px;
+    left: 240px;
+    /*margin-top: 80px;*/
+    background: none;
+    border: none;
+    outline: none;
+    font-family: inter;
+    font-style: regular;
+    font-size: 32px;
+    line-height: 48px;
+    line-height: 150%;
+    align: left;
+    vertical-align: top;
+    fill: solid;
+    color: #0a3871;
+    
+}
+
+.botones .botonEncriptar {
+
+    width: 328px;
+    height: 67px;
+    position: absolute;
+    top: 885px;
+    left: 240px;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: #0a3871;
+    font-style: regular;
+    font-size: 16px;
+    color: #ffffff;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botones .botonDesencriptar {
+
+    width: 328px;
+    height: 67px;
+    position: absolute;
+    top: 885px;
+    left: 592px;
+    border-radius: 24px;
+    border-color: #0a3871;
+    padding: 24px;
+    font-style: regular;
+    font-size: 16px;
+    color: #0a3871;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botonEncriptar:hover {
+
+    background: #0a3850;
+    transform: scale(1.1);
+}
+
+.botonDesencriptar:hover {
+
+    background: #cccccc;
+    transform: scale(1.1);
+}
+
+.mensajeEncriptado {
+
+    width: 336px;
+    height: 781px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    bottom: 40px;
+    left: 1000px;
+    border-radius: 20px;
+    border-width: 32px 32px 131px 32px;
+    border-color: white;
+    outline: none;
+    background-image: url("ImagenMuñeco.png");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-position-y: 243px;
+    background-position-x: 32px;
+    background-size: 336px 304px;
+    font-family: inter;
+    font-style: regular;
+    font-size: 24px;
+    line-height: 36px;
+    line-height: 150%;
+    align: left;
+    vertical-align: top;
+    color: #495057;
+    fill: solid;
+
+}
+
+.botonCopiar {
+
+    width: 336px;
+    height: 67px;
+    border-radius: 24px;
+    border-color: #0a3871;
+    position: absolute;
+    top: 885px;
+    left: 1032px;
+    background: none;
+    font-style: regular;
+    font-size: 16px;
+    color: #0a3871;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+.botonCopiar:hover {
+
+    background: #cccccc;
+    transform: scale(1.1);
+}
+
+.pieDePagina {
+
+    position:static;
+    background: #e5e5e5;
+}
