@@ -51,7 +51,7 @@ function btnEncriptar () {
     var arreglo = Array.from (string);
     const textoEncriptado = encriptar (arreglo);
     resultado.value = textoEncriptado;
-    /*resultado.style.backgroundImage = "none";*/
+    resultado.style.backgroundImage = "none";
 }
 
 function btnDesencriptar () {
